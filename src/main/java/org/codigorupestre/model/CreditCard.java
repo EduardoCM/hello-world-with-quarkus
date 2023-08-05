@@ -1,5 +1,7 @@
 package org.codigorupestre.model;
 
+import java.sql.Timestamp;
+
 public class CreditCard {
 	
 	
@@ -14,6 +16,8 @@ public class CreditCard {
 	public PaymentNetworks paymentNetworks;
 	
 	public String cvv;
+	
+	public Timestamp created;
 
 	@Override
 	public String toString() {
